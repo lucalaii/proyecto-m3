@@ -1,0 +1,29 @@
+.container {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.gymLogo {
+  width: 450px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid black;
+  transition: transform 0.3s ease;
+}
+
+.gymLogo:hover {
+  transform: scale(1.1);
+}
+
+.p {
+  font-size: 1.2em;
+}
