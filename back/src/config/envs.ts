@@ -1,10 +1,13 @@
 import dotenv from "dotenv";
-dotenv.config({path: "./src/config/.env"});
+dotenv.config({ path: "./src/config/.env" });
 
-const {PORT, PROTO, HOST} = process.env;
-
-export{
-    PORT,
-    PROTO,
-    HOST
-}
+export const {
+  PORT,
+  PROTO,
+  DB_HOST,
+  DB_TYPE,
+  DB_PORT,
+  DB_USERNAME,
+  DB_PASSWORD,
+  DB_NAME,
+} = process.env;
